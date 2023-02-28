@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Encriptador y desencriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./imagenes/aa.png" alt="logo" >
+        <h3 class="Informacion">SOLO LETRAS MINUSCULAS SIN ACENTOS</h3>
+    </header>
+    <main>
+        <section>
+            <textarea class="PalIngre" cols="25" rows="11" placeholder="ingrese el texto aqui"></textarea>
+        </section>
+        <section>
+            <div class="botones">
+                <div>
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                </div>
+                <div>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+                <div>
+                    <button class="copiar" onclick="copiar()">Copiar</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <textarea class="Res" cols="25" rows="11" placeholder="El resutado es:"></textarea>
+            
+        </section>
+    </main>
+    <footer>
+        <h3 class="des">DESARROLADO POR: <U>ABRAHAM PEREZ NINA</U></h3>
+    </footer>
+<script src="./script.js"></script>
+</body>
+</html>
