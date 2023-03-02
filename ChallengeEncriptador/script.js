@@ -64,7 +64,7 @@ function btnDesencriptar(){
 //fucnion copiar que es agregada al boton copiar para qeu pueda realisar la copia de la palabra encriptada o la palabra desencriptada
 function copiar(){
     Res.select();
-    navigator.clipboard.writeText(mensaje.value)
+    navigator.clipboard.writeText(Res.value)
     Res.value = "";
     alert("Texto Copiado")
 }
